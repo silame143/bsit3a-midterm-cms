@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "student_classes",
+  "info": {
+    "singularName": "student-class",
+    "pluralName": "student-classes",
+    "displayName": "student_class"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "class_id": {
+      "type": "biginteger"
+    },
+    "faculty_number": {
+      "type": "string"
+    },
+    "faculty_name": {
+      "type": "string"
+    },
+    "subject_code": {
+      "type": "string"
+    },
+    "subject_description": {
+      "type": "string"
+    }
+  }
+}
